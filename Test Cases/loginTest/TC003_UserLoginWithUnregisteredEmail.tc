@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can not login with invalid email &amp; a OTP modal should open</description>
+   <name>TC003_UserLoginWithUnregisteredEmail</name>
+   <tag>InvalidEmail</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba9caf30-5353-4656-944f-59edc12d0562</testCaseGuid>
+</TestCaseEntity>

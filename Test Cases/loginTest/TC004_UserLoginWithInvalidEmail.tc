@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that putting invalid format of mail address should notify user to put valid email format</description>
+   <name>TC004_UserLoginWithInvalidEmail</name>
+   <tag>loginWithInvalidEmail</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb357b1e-ec8d-4b03-bd75-620d4b09bb4b</testCaseGuid>
+</TestCaseEntity>
