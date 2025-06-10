@@ -14,35 +14,35 @@
    <testCaseLink>
       <guid>ed7027ee-e315-4f2e-8c1e-cc2debf7bc45</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/loginTest/TC001_UserLoginWithCorrectPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e2a124f3-a068-497c-b01d-487e50d08fce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/loginTest/TC002_UserLoginWithIncorrectPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0bf9f5f6-be82-4476-85d0-e788536f92c5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/loginTest/TC003_UserLoginWithUnregisteredEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5b8edd37-2fa7-40d6-ac3b-91c28a4aebad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/loginTest/TC004_UserLoginWithInvalidEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>90b2078e-beb6-48d0-82b9-5637d502f2b7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <iterationNameVariable>
          <defaultValue>findTestData('LoginData/UserLoginData')</defaultValue>
          <description></description>
@@ -72,6 +72,28 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>ecaf51d7-1108-467d-889a-5d7a0add0579</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ee33361-0e3b-4018-8c67-f6c8f3bfc5ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HotelSearch/HotelSearch</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6b99de85-7f8f-43e7-ac24-4fea1c0d3632</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/HotelSearch/HotelSearch</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6b99de85-7f8f-43e7-ac24-4fea1c0d3632</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Destination</value>
+         <variableId>7cb44ef4-e753-43d5-a924-dc9d916398ed</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

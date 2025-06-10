@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HotelSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>648a3b48-7767-45f9-8076-89f47fe16994</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2a4cabb8-00ef-4e33-916b-fedb3a9d990c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/HotelSearch/HotelSearch</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2a4cabb8-00ef-4e33-916b-fedb3a9d990c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Destination</value>
+      <variableId>7cb44ef4-e753-43d5-a924-dc9d916398ed</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('HotelSearch/HotelSearch')</defaultValue>
+      <description></description>
+      <id>7cb44ef4-e753-43d5-a924-dc9d916398ed</id>
+      <masked>true</masked>
+      <name>Destination</name>
+   </variable>
+</TestCaseEntity>

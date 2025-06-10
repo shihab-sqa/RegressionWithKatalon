@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'LOGIN/SIGN UP' or . = 'LOGIN/SIGN UP')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Access your Adventure portal, orders and profile. Your Advent community &amp; a lot more is waiting.'])[1]/following::span[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
