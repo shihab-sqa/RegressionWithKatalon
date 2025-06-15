@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>HotelSearch</name>
+   <name>New Test Data</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>a5a4491d-b0ca-49f8-b0f1-0f64df4ad832</dataFileGUID>
+   <dataFileGUID>d9b24755-64da-4623-a6e8-1f65ff8c12cc</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Dhaka</data>
+   <data>Japan</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>Destination</name>
+      <name>Country</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>

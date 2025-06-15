@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SelectCountry</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dde9971-7a92-411f-8616-c0e9e761f75e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5e35e59a-83f8-487a-8ab1-10fcbfd05eaa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Localization/New Test Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5e35e59a-83f8-487a-8ab1-10fcbfd05eaa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Country</value>
+      <variableId>188d6a7d-d025-4f45-aa4c-cf5a8509b2c8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Localization/New Test Data')</defaultValue>
+      <description></description>
+      <id>188d6a7d-d025-4f45-aa4c-cf5a8509b2c8</id>
+      <masked>true</masked>
+      <name>Country</name>
+   </variable>
+</TestCaseEntity>
